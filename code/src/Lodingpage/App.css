@@ -1,0 +1,32 @@
+.frentframe {
+    height: 100%;
+    width: calc(100%-15px);
+    padding: 15px;
+}
+
+.frentframe div {
+    display: inline-block;
+}
+
+.firstimage {
+    height: 500px;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.tex {
+    text-align: center;
+    vertical-align: top;
+    margin-top: 20%;
+    margin-left: 150px;
+    color: rgb(20, 215, 27);
+}
+
+.btn_to_enter {
+    background-color: aquamarine;
+    color: green;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 10px 15px;
+}

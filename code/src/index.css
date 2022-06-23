@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.set-container {
+  width: calc(100%-16px);
+  height: calc(100%-16px);
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+.text {
+  display: flex;
+  margin-top: 15px;
+}
+
+.head {
+  display: flex;
+  width: 100%;
+  height: 75px;
+  border: 1px solid aliceblue;
+}
+
+.cam {
+  margin-left: 75%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.text {
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: rgb(0, 250, 0);
+}
+
+.view {
+  width: 100%;
+  height: calc(100%-75px);
+  border: 1px solid #bbb;
+}
+
+.Post {
+  width: 400px;
+  height: 410px;
+  border: 1px solid black;
+  margin-left: 550px;
+  margin-top: 25px;
+}
+
+.Postimagewraper img {
+  height: 250px;
+  width: 400px;
+}
+
+.userdetails {
+  margin-left: 5px;
+}
+
+.username {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.usercity {
+  font-weight: 550px;
+  color: #bbb;
+}
+
+.Postheader {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.useraction {
+  margin-left: 280px;
+  font-weight: bolder;
+  margin-top: 5px;
+  font-size: 23px;
+}
+
+.likebuttons {
+  display: flex;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.share {
+  margin-left: 10px;
+}
+
+.likescount {
+  margin-left: 5px;
+}
+
+.postedon {
+  margin-left: 230px;
+}
+
+.description {
+  font-weight: bolder;
+  margin: 5px;
+}

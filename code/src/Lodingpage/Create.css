@@ -1,0 +1,41 @@
+.postdetails {
+    border: 2px solid black;
+    height: 200px;
+    width: 450px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.file {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.id1 {
+    margin-top: 30px;
+}
+
+.name {
+    float: left;
+}
+
+.location {
+    float: right;
+}
+
+.descreption {
+    margin-top: 20px;
+    margin-left: 88px;
+}
+
+#btn_to_create {
+    margin-top: 15px;
+    background-color: aquamarine;
+    color: green;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 10px 15px;
+}
